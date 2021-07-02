@@ -1,0 +1,34 @@
+<!--page1.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function jsFunction() {
+            window.location = "page4.html";
+            }
+    </script>
+</head>
+<body style="background-color:#ffbc61;">
+<div class="text-center">
+    <div class="col-sm-12 ">
+            <audio id="bflat" src="audio1.mp3"></audio>
+			<button onclick="document.getElementById('bflat').play()">Play-1</button>
+			<h1> </h1>
+            <audio id="cflat" src="audio2.mp3"></audio>
+			<button onclick="document.getElementById('cflat').play()">Play-2</button>
+
+    </div>
+    <div class="text-right">
+    	<audio id="dflat" src="russian.mp3"></audio>
+			<button onclick="document.getElementById('dflat').play()">Shrek</button>
+	</div>
+	<div class="text-right">
+    	<audio id="eflat" src="bonus.mp3"></audio>
+			<button onclick="document.getElementById('eflat').play()">Bonus</button>
+	</div>
+</div>
+</body>
+</html>
