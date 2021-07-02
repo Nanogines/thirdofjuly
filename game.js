@@ -85,8 +85,8 @@ function init(player, OPPONENT){
         // Check if the play wins
         if(isWinner(gameData, currentPlayer)){
             showGameOver(currentPlayer);
-            location.assign("page2.html");
             GAME_OVER = true;
+            location.assign("page2.html");
             return;
         }
 
